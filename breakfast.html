@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Web site which has more than 100 recipes information">
+        <title>Foodies Trend</title>
+        <link rel="stylesheet" href="./breakfast.css">
+        <link rel="icon" href="./favicon.ico">
+    </head>
+    
+    <body>
+        <div id="root">
+            <div>
+                <div>
+                    <ul class="ul-div-navbar">
+                        <a class="a-elements-navbar breakfast" href="./breakfast.html">
+                            <li class="li-elements-navbar breakfast">Breakfast</li>
+                        </a>
+                        <a class="a-elements-navbar lunch" href="./lunch.html">
+                            <li class="li-elements-navbar lunch">Lunch/Dinner</li>
+                        </a>
+                        <a class="a-elements-navbar" href="./index.html">
+                            <li class="li-elements-navbar home  home">
+                                <img class="navbar-logo" src="./images/bowl.jpeg" alt="">
+                            </li>
+                        </a>
+                        <a class="a-elements-navbar snacks" href="./snacks.html">
+                            <li class="li-elements-navbar snacks">Snacks</li>
+                        </a>
+                        <a class="a-elements-navbar dessert" href="./dessert.html">
+                            <li class="li-elements-navbar dessert">Dessert<sup class="new-superscript-navbar" style="color: rgb(155, 157, 80);">New</sup>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div>
+                    <div>
+                        <div class="home-search-div">
+                            <input type="search" class="input-hero" placeholder="Sandwitch...">
+                            <img class="search-icon-breakfast" src="./images/search.jpeg" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="new-home-search-div-to-be-inserted-here">
+                        
+                    </div>
+                    <div class="filters-section">
+                        <div class="filters-div-align">
+                            <div class="filters-div" id="filterToggle">
+                                <img class="filters-image" alt="" src="./images/filter.png">
+                                <p class="filters-text">Filters</p>
+                            </div>
+                        </div>
+                        <!--<div class="buttons-div">
+                            <ul class="buttons-group" id="filtersContainer">
+                                <li class="button-otherthan-home b1 button-start" value="All">All</li>
+                                <li class="button-otherthan-home b2" value="abcd">South Indian</li>
+                                <li class="button-otherthan-home b3">North Indian</li>
+                                <li class="button-otherthan-home b4">Chinese</li>
+                                <li class="button-otherthan-home b5">Hide Filters</li>
+                            </ul>
+                        </div>
+                        -->
+                        <div class="buttons-div">
+                            <div class="buttons-group" id="filtersContainer">
+                                <button class="filter-btn active" data-category="All">All</button>
+                                <button class="filter-btn" data-category="South Indian">South Indian</button>
+                                <button class="filter-btn" data-category="North Indian">North Indian</button>
+                                <button class="filter-btn" data-category="Chinese">Chinese</button>
+                                <button class="filter-btn hide-btn">Hide Filters</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="other-than-home-insert-div">
+                        <div class="card-other-than-home" data-category="South Indian">
+                            <img class="img-card-other-than-home" src="https://www.indianfoodforever.com/iffwd/wp-content/uploads/idli-sambhar-1280x720.jpg" alt="">
+                            <div class="card-body-other-than-home" >
+                                <p class="card-title-other-than-home">idli</p>
+                                <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">30 min</span></p>
+                                <p class="center-button">
+                                    <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                                </p>
+                                <p class="center-button-other-than-home">
+                                    <a href="./breakfast/idli.html"><button class="button-home-card-other-than-home">Let's Cook</button></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-other-than-home" data-category="South Indian">
+                            <img class="img-card-other-than-home" src="https://i.ytimg.com/vi/CCab5oh0ZOc/maxresdefault.jpg" alt="">
+                            <div class="card-body-other-than-home" >
+                                <p class="card-title-other-than-home">dosa</p>
+                                <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">30 min</span></p>
+                                <p class="center-button">
+                                    <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                                </p>
+                                <p class="center-button-other-than-home">
+                                    <a href="./breakfast/dosa.html"><button class="button-home-card-other-than-home">Let's Cook</button></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-other-than-home" data-category="South Indian">
+                            <img class="img-card-other-than-home" src="https://hirasweets.com/wp-content/uploads/2020/06/vada-sambhar-1280x720.jpg" alt="">
+                            <div class="card-body-other-than-home" >
+                                <p class="card-title-other-than-home">vada</p>
+                                <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">30 min</span></p>
+                                <p class="center-button">
+                                    <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                                </p>
+                                <p class="center-button-other-than-home">
+                                    <a href="./breakfast/vada.html"><button class="button-home-card-other-than-home">Let's Cook</button></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-other-than-home" data-category="South Indian">
+                            <img class="img-card-other-than-home" src="https://i.ytimg.com/vi/mJnQ7PYYK7w/maxresdefault.jpg" alt="">
+                            <div class="card-body-other-than-home">
+                                <p class="card-title-other-than-home">semiya upma</p>
+                                <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">20 min</span></p>
+                                <p class="center-button">
+                                    <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                                </p>
+                                <p class="center-button-other-than-home">
+                                    <a href="./breakfast/upma.html"><button class="button-home-card-other-than-home">Let's Cook</button></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-other-than-home" data-category="South Indian">
+                            <img class="img-card-other-than-home" src="https://i.ytimg.com/vi/xE-iZpq3zH0/maxresdefault.jpg" alt="">
+                            <div class="card-body-other-than-home">
+                                <p class="card-title-other-than-home">Lemon Rice</p>
+                                <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">15 min</span></p>
+                                <p class="center-button">
+                                    <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                                </p>
+                                <p class="center-button-other-than-home">
+                                    <a href="./breakfast/lemonRice.html"><button class="button-home-card-other-than-home">Let's Cook</button></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-other-than-home" data-category="North Indian">
+                            <img class="img-card-other-than-home" src="https://www.flavorsofmumbai.com/wp-content/uploads/2015/04/Egg-Bhurji-Recipe-4-1280x720.jpg" alt="">
+                            <div class="card-body-other-than-home">
+                                <p class="card-title-other-than-home">egg burji</p>
+                                <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">10 min</span></p>
+                                <p class="center-button">
+                                    <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                                </p>
+                                <p class="center-button-other-than-home">
+                                    <a href="./breakfast/eggBhurji.html"><button class="button-home-card-other-than-home">Let's Cook</button></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-other-than-home" data-category="North Indian">
+                            <img class="img-card-other-than-home" src="https://www.manjulaskitchen.com/wp-content/uploads/punjabi_aloo_paratha.jpg" alt="">
+                            <div class="card-body-other-than-home">
+                                <p class="card-title-other-than-home">aloo paratha</p>
+                                <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">20 min</span></p>
+                                <p class="center-button">
+                                    <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                                </p>
+                                <p class="center-button-other-than-home">
+                                    <a href="./breakfast/aaloParatha.html"><button class="button-home-card-other-than-home">Let's Cook</button></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-other-than-home" data-category="North Indian">
+                            <img class="img-card-other-than-home" src="https://foodtasted.org/wp-content/uploads/2019/02/Poha-1280x720.jpg" alt="">
+                            <div class="card-body-other-than-home">
+                                <p class="card-title-other-than-home">poha</p>
+                                <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">15 min</span></p>
+                                <p class="center-button">
+                                    <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                                </p>
+                                <p class="center-button-other-than-home">
+                                    <a href="./breakfast/poha.html"><button class="button-home-card-other-than-home">Let's Cook</button></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-other-than-home" data-category="North Indian">
+                            <img class="img-card-other-than-home" src="https://www.manjulaskitchen.com/wp-content/uploads/paneer_sandwich.jpg" alt="">
+                            <div class="card-body-other-than-home">
+                                <p class="card-title-other-than-home">sandwitch</p>
+                                <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">10 min</span></p>
+                                <p class="center-button">
+                                    <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                                </p>
+                                <p class="center-button-other-than-home">
+                                    <a href="./breakfast/sandwitch.html"><button class="button-home-card-other-than-home">Let's Cook</button></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-other-than-home" data-category="North Indian">
+                            <img class="img-card-other-than-home" src="https://i.ytimg.com/vi/pbIu7LxuAQM/maxresdefault.jpg" alt="">
+                            <div class="card-body-other-than-home">
+                                <p class="card-title-other-than-home">egg conparatha</p>
+                                <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">15 min</span></p>
+                                <p class="center-button">
+                                    <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                                </p>
+                                <p class="center-button-other-than-home">
+                                    <a href="./breakfast/conparatha.html"><button class="button-home-card-other-than-home">Let's Cook</button></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-other-than-home" data-category="Chinese">
+                            <img class="img-card-other-than-home" src="https://i.ytimg.com/vi/SWVm_BzfnU4/maxresdefault.jpg" alt="">
+                            <div class="card-body-other-than-home">
+                                <p class="card-title-other-than-home">rice noodles</p>
+                                <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">10 min</span></p>
+                                <p class="center-button">
+                                    <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                                </p>
+                                <p class="center-button-other-than-home">
+                                    <a href="./breakfast/noodles.html"><button class="button-home-card-other-than-home">Let's Cook</button></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-other-than-home" data-category="Chinese">
+                            <img class="img-card-other-than-home" src="https://i.ytimg.com/vi/rKmz_6sENyE/maxresdefault.jpg" alt="">
+                            <div class="card-body-other-than-home">
+                                <p class="card-title-other-than-home">steamed buns</p>
+                                <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">15 min</span></p>
+                                <p class="center-button">
+                                    <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                                </p>
+                                <p class="center-button-other-than-home">
+                                    <a href="./breakfast/buns.html"><button class="button-home-card-other-than-home">Let's Cook</button></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-other-than-home" data-category="Chinese">
+                            <img class="img-card-other-than-home" src="https://www.goanobserver.in/wp-content/uploads/2018/10/dhokla.jpg" alt="">
+                            <div class="card-body-other-than-home">
+                                <p class="card-title-other-than-home">dhokla</p>
+                                    <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">10 min</span></p>
+                                    <p class="center-button">
+                                        <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                                    </p>
+                                    <p class="center-button-other-than-home">
+                                        <a href="./breakfast/dhokla.html"><button class="button-home-card-other-than-home">Let's Cook</button></a>
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="card-other-than-home" data-category="Chinese">
+                            <img class="img-card-other-than-home" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR62An25qATwuE83QS6U4uid1_fK5kigq9gMQ&s" alt="">
+                            <div class="card-body-other-than-home">
+                            <p class="card-title-other-than-home">rava upma</p>
+                            <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">12 min</span></p>
+                            <p class="center-button">
+                                <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                            </p>
+                            <p class="center-button-other-than-home">
+                                <a href="./breakfast/RawaUpma.html"><button class="button-home-card-other-than-home">Let's Cook</button></a>
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div>
+                <div class="footer">
+                    <div class="section-1">
+                        <a class="a-footer-elements" href="./index.html">Home</a>
+                        <br>
+                        <a class="a-footer-elements" href="./breakfast.html">BreakFast</a>
+                        <br>
+                        <a class="a-footer-elements" href="./lunch.html">Lunch</a>
+                        <br>
+                        <a class="a-footer-elements" href="./snacks.html">Snacks</a>
+                        <br>
+                        <a class="a-footer-elements" href="./dessert.html">Dessert</a>
+                    </div>
+                    <div class="section-2">
+                        <p class="footer-section-2-description">Designed and Developed by Mansvi, Foodies Trends</p>
+                        <div class="social-icons-footer">
+                            <a target="blank" href="https://www.instagram.com/_mindy_810/">
+                                <img class="icons-footer icons-instagram" src="./images/insta.png" alt="">
+                            </a>
+                            <a target="blank" href="https://github.com/Mansviaskar">
+                                <img class="icons-footer" src="./images/github.png" alt="">
+                            </a>
+                            <a target="blank" href="https://www.linkedin.com/in/mansvi-askar-a3382b287/">
+                                <img class="icons-footer" src="./images/linkedIn.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section-3a">
+                        <p class="footer-section-3-description section-3">For Any Feedback regarding the Web Application kindly Mail Me at 
+                        <span class="mail-footer">
+                            <img class="icons-footer email-logo" src="./images/mail.png">
+                            askarmansvi@gmail.com
+                        </span>
+                    </p>
+                </div>   
+            </div>
+        </div>
+
+        <script src="./breakfast.js"></script>
+    </body>
+</html>

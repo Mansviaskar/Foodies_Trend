@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web site which has more than 100 recipes information">
+    <title>Foodies Trend</title>
+    <link rel="stylesheet" href="./snacks.css">
+    <link rel="icon" href="./favicon.ico">
+  </head>
+
+    <body>
+        <div id="root">
+            <div>
+                <div>
+                    <ul class="ul-div-navbar">
+                        <a class="a-elements-navbar breakfast" href="./breakfast.html">
+                            <li class="li-elements-navbar breakfast">Breakfast</li>
+                        </a>
+                        <a class="a-elements-navbar lunch" href="./lunch.html">
+                            <li class="li-elements-navbar lunch">Lunch/Dinner</li>
+                        </a>
+                        <a class="a-elements-navbar" href="./index.html">
+                            <li class="li-elements-navbar home  home">
+                                <img class="navbar-logo" src="./images/bowl.jpeg" alt="">
+                            </li>
+                        </a>
+                        <a class="a-elements-navbar snacks" href="./snacks.html">
+                            <li class="li-elements-navbar snacks">Snacks</li>
+                        </a>
+                        <a class="a-elements-navbar dessert" href="./dessert.html">
+                            <li class="li-elements-navbar dessert">Dessert<sup class="new-superscript-navbar" style="color: rgb(155, 157, 80);">New</sup>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div>
+                    <div>
+                        <div class="home-search-div">
+                            <input type="search" class="input-hero" placeholder="Veg Sandwitch...">
+                            <img class="search-icon-breakfast" src="./images/search.jpeg" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="new-home-search-div-to-be-inserted-here">
+
+                    </div>
+                    <div class="filters-section">
+                        <div class="filters-div-align">
+                            <div class="filters-div" id="filterToggle">
+                                <img class="filters-image" alt="" src="./images/filter.png">
+                                <p class="filters-text">Filters</p>
+                            </div>
+                        </div>
+                        <div class="buttons-div">
+                            <div class="buttons-group" id="filtersContainer">
+                                <button class="filter-btn active" data-category="All">All</button>
+                                <button class="filter-btn" data-category="Salty">Salty</button>
+                                <button class="filter-btn" data-category="Spicy">Spicy</button>
+                                <button class="filter-btn hide-btn">Hide Filters</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="other-than-home-insert-div">
+                        <div class="card-other-than-home" data-category="Spicy">
+                          <img class="img-card-other-than-home" src="https://www.hungryforever.com/wp-content/uploads/2018/08/gol-gappa-2nd-banner-1280x720.jpg" alt="">
+                          <div class="card-body-other-than-home">
+                            <p class="card-title-other-than-home">pani puri</p>
+                            <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">45 min</span></p>
+                            <p class="center-button">
+                              <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                            </p>
+                            <p class="center-button-other-than-home"><a href="./snacks/paniPuri.html">
+                              <button class="button-home-card-other-than-home">Let's Cook</button></a>
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="card-other-than-home" data-category="Spicy">
+                            <img class="img-card-other-than-home" src="https://www.hungryforever.com/wp-content/uploads/2016/07/feature-image-kachori-1280x720.jpg" alt="">
+                            <div class="card-body-other-than-home">
+                                <p class="card-title-other-than-home">kachori</p>
+                                <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">30 min</span></p>
+                                <p class="center-button">
+                                    <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                                </p>
+                                <p class="center-button-other-than-home">
+                                    <a href="./snacks/kachori.html">
+                                        <button class="button-home-card-other-than-home">Let's Cook</button>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="card-other-than-home" data-category="Spicy">
+                          <img class="img-card-other-than-home" src="https://assets.gqindia.com/photos/625e4dacfcfaab5b0ecc5ee0/16:9/w_1280,c_limit/vada-pav%20(1).jpg" alt="">
+                          <div class="card-body-other-than-home">
+                            <p class="card-title-other-than-home">vada pao</p>
+                            <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">30 min</span></p>
+                            <p class="center-button">
+                              <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                            </p>
+                            <p class="center-button-other-than-home"><a href="./snacks/vadaPao.html">
+                              <button class="button-home-card-other-than-home">Let's Cook</button></a>
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="card-other-than-home" data-category="Spicy">
+                            <img class="img-card-other-than-home" src="https://content.jdmagicbox.com/comp/def_content/pav-bhaji-centres/pav-bhaji-recipe-in-hindi-1280x720-pav-bhaji-centres-9-n86dx.jpg" alt="">
+                            <div class="card-body-other-than-home">
+                                <p class="card-title-other-than-home">pao bhaji</p>
+                                <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">40 min</span></p>
+                                <p class="center-button">
+                                    <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                                </p>
+                                <p class="center-button-other-than-home"><a href="./snacks/PaoBhaji.html">
+                                    <button class="button-home-card-other-than-home">Let's Cook</button></a>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="card-other-than-home" data-category="Spicy">
+                            <img class="img-card-other-than-home" src="https://i.ytimg.com/vi/TdlP7Gnr1dU/maxresdefault.jpg" alt="">
+                            <div class="card-body-other-than-home">
+                                <p class="card-title-other-than-home">bread omlet</p>
+                                <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">10 min</span></p>
+                                <p class="center-button">
+                                    <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                                </p>
+                                <p class="center-button-other-than-home"><a href="./snacks/breadOmlet.html">
+                                    <button class="button-home-card-other-than-home">Let's Cook</button></a>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="card-other-than-home" data-category="Spicy">
+                            <img class="img-card-other-than-home" src="https://i.ytimg.com/vi/xBtcUBFfUVs/maxresdefault.jpg" alt="">
+                            <div class="card-body-other-than-home">
+                                <p class="card-title-other-than-home">veg sandwitch</p>
+                                <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">10 min</span></p>
+                                <p class="center-button">
+                                    <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                                </p>
+                                <p class="center-button-other-than-home"><a href="./snacks/vegSandwitch.html">
+                                    <button class="button-home-card-other-than-home">Let's Cook</button></a>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="card-other-than-home" data-category="Spicy">
+                            <img class="img-card-other-than-home" src="http://2.bp.blogspot.com/-1e-RIuptqzs/U1LEvloLEEI/AAAAAAAAFEI/gFYMGQSNALY/s1600/Onion+Pakoda+Hotel+Style+Preparation+in+Telugu.mp4_snapshot_00.16_%5B2014.03.06_00.30.18%5D.jpg" alt="">
+                            <div class="card-body-other-than-home">
+                                <p class="card-title-other-than-home">onion pakoda</p>
+                                <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">25 min</span></p>
+                                <p class="center-button">
+                                    <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                                </p>
+                                <p class="center-button-other-than-home"><a href="./snacks/pakoda.html">
+                                    <button class="button-home-card-other-than-home">Let's Cook</button></a>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="card-other-than-home" data-category="Spicy">
+                            <img class="img-card-other-than-home" src="https://www.hungryforever.com/wp-content/uploads/2016/01/Featured-image-papdi-chaat-1280x720.jpg" alt="">
+                            <div class="card-body-other-than-home">
+                              <p class="card-title-other-than-home">papdi chat</p>
+                              <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">15 min</span></p>
+                              <p class="center-button">
+                                <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                              </p>
+                              <p class="center-button-other-than-home"><a href="./snacks/papdiChat.html">
+                                <button class="button-home-card-other-than-home">Let's Cook</button></a>
+                              </p>
+                            </div>
+                        </div>
+                        <div class="card-other-than-home" data-category="Spicy">
+                          <img class="img-card-other-than-home" src="https://i.ytimg.com/vi/WROh4Q94ch0/maxresdefault.jpg" alt="">
+                          <div class="card-body-other-than-home">
+                            <p class="card-title-other-than-home">aalo tikki</p>
+                            <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">25 min</span></p>
+                            <p class="center-button">
+                              <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                            </p>
+                            <p class="center-button-other-than-home"><a href="./snacks/aaloTikki.html">
+                              <button class="button-home-card-other-than-home">Let's Cook</button></a>
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div class="card-other-than-home" data-category="Spicy">
+                          <img class="img-card-other-than-home" src="https://i.pinimg.com/originals/61/55/eb/6155ebbd1f6a16bb5c2be6c10345e2a6.jpg" alt="">
+                          <div class="card-body-other-than-home">
+                            <p class="card-title-other-than-home">samosa</p>
+                            <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">50 min</span></p>
+                            <p class="center-button">
+                              <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                            </p>
+                            <p class="center-button-other-than-home"><a href="./snacks/samosa.html"><button class="button-home-card-other-than-home">Let's Cook</button></a></p>
+                          </div>
+                        </div>
+                        
+                        <div class="card-other-than-home" data-category="Spicy">
+                          <img class="img-card-other-than-home" src="https://i.ytimg.com/vi/HG3jOspJVZw/maxresdefault.jpg" alt="">
+                          <div class="card-body-other-than-home">
+                            <p class="card-title-other-than-home">egg puff</p>
+                            <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">45 min</span></p>
+                            <p class="center-button">
+                              <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                            </p>
+                            <p class="center-button-other-than-home"><a href="./snacks/eggPuff.html">
+                              <button class="button-home-card-other-than-home">Let's Cook</button></a>
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div class="card-other-than-home" data-category="Spicy">
+                          <img class="img-card-other-than-home" src="https://i.ytimg.com/vi/1kWlh9qhsHU/maxresdefault.jpg" alt="">
+                          <div class="card-body-other-than-home">
+                            <p class="card-title-other-than-home">curry puff</p>
+                            <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">30 min</span></p>
+                            <p class="center-button">
+                              <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                            </p>
+                            <p class="center-button-other-than-home"><a href="./snacks/curryPuff.html">
+                              <button class="button-home-card-other-than-home">Let's Cook</button></a>
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div class="card-other-than-home" data-category="Spicy">
+                          <img class="img-card-other-than-home" src="https://i.ytimg.com/vi/kUaGj-IwUtA/maxresdefault.jpg" alt="">
+                          <div class="card-body-other-than-home">
+                            <p class="card-title-other-than-home">veg spring role</p>
+                            <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">40 min</span></p>
+                            <p class="center-button">
+                              <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                            </p>
+                            <p class="center-button-other-than-home"><a href="./snacks/springRoll.html">
+                              <button class="button-home-card-other-than-home">Let's Cook</button></a>
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div class="card-other-than-home" data-category="Salty">
+                          <img class="img-card-other-than-home" src="https://manjulaskitchen.com/wp-content/uploads/aloo_bhujia_potato_sev.jpg" alt="">
+                          <div class="card-body-other-than-home">
+                            <p class="card-title-other-than-home">aloo bhujiya</p>
+                            <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">45 min</span></p>
+                            <p class="center-button">
+                              <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                            </p>
+                            <p class="center-button-other-than-home"><a href="./snacks/aaloBhujiya.html">
+                              <button class="button-home-card-other-than-home">Let's Cook</button></a>
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div class="card-other-than-home" data-category="Salty">
+                          <img class="img-card-other-than-home" src="https://s1.dmcdn.net/v/8b4ec1KebqB58hSWa/x720" alt="">
+                          <div class="card-body-other-than-home">
+                            <p class="card-title-other-than-home">french fries</p>
+                            <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">15 min</span></p>
+                            <p class="center-button">
+                              <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                            </p>
+                            <p class="center-button-other-than-home"><a href="./snacks/fries.html">
+                              <button class="button-home-card-other-than-home">Let's Cook</button></a>
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div class="card-other-than-home" data-category="Salty">
+                          <img class="img-card-other-than-home" src="https://www.nehascookbook.com/wp-content/uploads/2022/10/Palak-patra-WS.jpg" alt="">
+                          <div class="card-body-other-than-home">
+                            <p class="card-title-other-than-home">patra</p>
+                            <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">40 min</span></p>
+                            <p class="center-button">
+                              <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                            </p>
+                            <p class="center-button-other-than-home"><a href="./snacks/patra.html">
+                              <button class="button-home-card-other-than-home">Let's Cook</button></a>
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div class="card-other-than-home" data-category="Salty">
+                          <img class="img-card-other-than-home" src="https://images.jdmagicbox.com/rep/b2b/bhakarwadi/bhakarwadi-6.jpg" alt="">
+                          <div class="card-body-other-than-home">
+                            <p class="card-title-other-than-home">bhakar vadi</p>
+                            <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">25 min</span></p>
+                            <p class="center-button">
+                              <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                            </p>
+                            <p class="center-button-other-than-home"><a href="./snacks/bhakarVadi.html">
+                              <button class="button-home-card-other-than-home">Let's Cook</button></a>
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div class="card-other-than-home" data-category="Salty">
+                          <img class="img-card-other-than-home" src="https://media.newyorker.com/photos/5ddc03cf62f7190008aa6207/16:9/w_1280,c_limit/popcorn.jpg" alt="">
+                          <div class="card-body-other-than-home">
+                            <p class="card-title-other-than-home">pop corn</p>
+                            <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">10 min</span></p>
+                            <p class="center-button">
+                              <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                            </p>
+                            <p class="center-button-other-than-home"><a href="./snacks/popCorn.html">
+                              <button class="button-home-card-other-than-home">Let's Cook</button></a>
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div class="card-other-than-home" data-category="Spicy">
+                          <img class="img-card-other-than-home" src="https://www.spicypunch.com/wp-content/uploads/2020/07/veg-pizza-1280x720.jpg" alt="">
+                          <div class="card-body-other-than-home">
+                            <p class="card-title-other-than-home">pizza</p>
+                            <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">30 min</span></p>
+                            <p class="center-button">
+                              <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                            </p>
+                            <p class="center-button-other-than-home"><a href="./snacks/pizza.html">
+                              <button class="button-home-card-other-than-home">Let's Cook</button></a>
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div class="card-other-than-home" data-category="Spicy">
+                          <img class="img-card-other-than-home" src="https://assets.cntraveller.in/photos/60ba26c1c28d168a1ec8638a/16:9/w_1280,c_limit/Burgers-Mumbai-Delivery.jpg" alt="">
+                          <div class="card-body-other-than-home">
+                            <p class="card-title-other-than-home">burger</p>
+                            <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">30 min</span></p>
+                            <p class="center-button">
+                              <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                            </p>
+                            <p class="center-button-other-than-home"><a href="./snacks/burger.html"><button class="button-home-card-other-than-home">Let's Cook</button></a></p>
+                          </div>
+                        </div>
+                        
+                        <div class="card-other-than-home" data-category="Salty">
+                          <img class="img-card-other-than-home" src="https://i.ytimg.com/vi/U4EmZ-ZsbEw/maxresdefault.jpg" alt="">
+                          <div class="card-body-other-than-home">
+                            <p class="card-title-other-than-home">bhel puri</p>
+                            <p class="card-time-other-than-home">Time Taken To Cook : <span class="span-time-to-cook">45 min</span></p>
+                            <p class="center-button">
+                              <img class="rating-card-other-than-home" src="./images/5star.png" alt="">
+                            </p>
+                            <p class="center-button-other-than-home"><a href="./snacks/bhelPuri.html">
+                              <button class="button-home-card-other-than-home">Let's Cook</button></a>
+                            </p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="footer">
+                <div class="section-1">
+                    <a class="a-footer-elements" href="./index.html">Home</a>
+                    <br>
+                    <a class="a-footer-elements" href="./breakfast.html">BreakFast</a>
+                    <br>
+                    <a class="a-footer-elements" href="./lunch.html">Lunch</a>
+                    <br>
+                    <a class="a-footer-elements" href="./snacks.html">Snacks</a>
+                    <br>
+                    <a class="a-footer-elements" href="./dessert.html">Dessert</a>
+                </div>
+                <div class="section-2">
+                    <p class="footer-section-2-description">Designed and Developed by Mansvi, Foodies Trends</p>
+                    <div class="social-icons-footer">
+                        <a target="blank" href="https://www.instagram.com/_mindy_810/">
+                            <img class="icons-footer icons-instagram" src="./images/insta.png" alt="">
+                        </a>
+                        <a target="blank" href="https://github.com/Mansviaskar">
+                            <img class="icons-footer" src="./images/github.png" alt="">
+                        </a>
+                        <a target="blank" href="https://www.linkedin.com/in/mansvi-askar-a3382b287/">
+                            <img class="icons-footer" src="./images/linkedIn.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="section-3a">
+                    <p class="footer-section-3-description section-3">For Any Feedback regarding the Web Application kindly Mail Me at 
+                    <span class="mail-footer">
+                        <img class="icons-footer email-logo" src="./images/mail.png">
+                        askarmansvi@gmail.com
+                    </span>
+                    </p>
+                </div>   
+            </div>
+        </div>
+
+        <script src="./snacks.js"></script>
+    </body>
+</html>
+        
+            
+                                

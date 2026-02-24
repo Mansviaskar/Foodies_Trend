@@ -160,59 +160,52 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       name: "rasmalai",
-      image: "https://i.ytimg.com/vi/CCab5oh0ZOc/maxresdefault.jpg",
-      ingredients: "Urad Dal, Soda, Salt...",
-      time: "30 Min",
-      link: "./breakfast/dosa.html"
+      image: "https://c.ndtvimg.com/2019-01/tghm4oco_rasmalai_625x300_31_January_19.jpg",
+      ingredients: "Milk, vinegar, sugar, almond...",
+      time: "45 Min",
+      link: "./dessert/rasmalai.html"
     },
     {
       name: "plain dal",
-      image: "https://i.ytimg.com/vi/CCab5oh0ZOc/maxresdefault.jpg",
-      ingredients: "Urad Dal, Soda, Salt...",
-      time: "30 Min",
-      link: "./breakfast/dosa.html"
+      image: "https://i.ytimg.com/vi/5hNz4WmXFsc/maxresdefault.jpg",
+      ingredients: "toor Dal, masoor dal, onion, tomato, Salt...",
+      time: "35 Min",
+      link: "./lunch/plainDal.html"
     },
     {
       name: "aalo biryani",
-      image: "https://i.ytimg.com/vi/CCab5oh0ZOc/maxresdefault.jpg",
-      ingredients: "Urad Dal, Soda, Salt...",
-      time: "30 Min",
-      link: "./breakfast/dosa.html"
+      image: "https://b.zmtcdn.com/data/dish_photos/56d/14363e798ace8decd7baf4e474d9b56d.jpg",
+      ingredients: "Potato, rice, curry leaves, oil Salt...",
+      time: "40 Min",
+      link: "./lunch/aaloBiryani.html"
     },
     {
       name: "egg biryani",
-      image: "https://i.ytimg.com/vi/CCab5oh0ZOc/maxresdefault.jpg",
-      ingredients: "Urad Dal, Soda, Salt...",
+      image: "http://www.flavorsofmumbai.com/wp-content/uploads/2016/04/Egg-Biryani-Recipe-4-1280x720.jpg",
+      ingredients: "Egg, Rice, Curry leaves, Salt...",
       time: "30 Min",
-      link: "./breakfast/dosa.html"
-    },
-    {
-      name: "palak paneer",
-      image: "https://i.ytimg.com/vi/CCab5oh0ZOc/maxresdefault.jpg",
-      ingredients: "Urad Dal, Soda, Salt...",
-      time: "30 Min",
-      link: "./breakfast/dosa.html"
+      link: "./lunch/eggBiryani.html"
     },
     {
       name: "paneer pulao",
-      image: "https://i.ytimg.com/vi/CCab5oh0ZOc/maxresdefault.jpg",
-      ingredients: "Urad Dal, Soda, Salt...",
-      time: "30 Min",
-      link: "./breakfast/dosa.html"
+      image: "http://www.flavorsofmumbai.com/wp-content/uploads/2015/01/Paneer-Pulao-Recipe-9-1280x720.jpg",
+      ingredients: "Paneer, Rice, Oil, Salt...",
+      time: "45 Min",
+      link: "./lunch/paneerPulao.html"
     },
     {
       name: "veg biryani",
-      image: "https://i.ytimg.com/vi/CCab5oh0ZOc/maxresdefault.jpg",
-      ingredients: "Urad Dal, Soda, Salt...",
+      image: "https://www.manjulaskitchen.com/wp-content/uploads/vegetable_biryani_instant_pot.jpg",
+      ingredients: "Vegetables, Rice, Oil, Salt...",
       time: "30 Min",
-      link: "./breakfast/dosa.html"
+      link: "./lunch/vegBiryani.html"
     },
     {
       name: "sambhar",
-      image: "https://i.ytimg.com/vi/CCab5oh0ZOc/maxresdefault.jpg",
-      ingredients: "Urad Dal, Soda, Salt...",
-      time: "30 Min",
-      link: "./breakfast/dosa.html"
+      image: "https://www.healthkart.com/connect/wp-content/uploads/2022/06/900x500_thumbnail_HK-Sambar-1280x720.png",
+      ingredients: "Toor Dal, Oil, Curry Leaves, Salt...",
+      time: "50 Min",
+      link: "./lunch/sambhar.html"
     },
   ];
 

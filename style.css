@@ -962,3 +962,42 @@ a {
     place-self: center;
   }
 }
+
+/* SEARCH RESULT BIG CARD */
+
+.search-result-card {
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+  background-color: #b8d8b8;
+  padding: 30px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.search-result-img {
+  width: 450px;
+  border-radius: 10px;
+}
+
+.search-result-content {
+  flex: 1;
+}
+
+.search-result-title {
+  color: #d32f2f;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .search-result-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .search-result-img {
+    width: 100%;
+  }
+}

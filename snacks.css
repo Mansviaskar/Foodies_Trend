@@ -438,8 +438,10 @@ img, svg {
     animation-name: append-animate-search-2;
 }
 .img-card-other-than-home {
-    height: auto;
     width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
 }
 .card-title-other-than-home {
     font-size: 20px;
